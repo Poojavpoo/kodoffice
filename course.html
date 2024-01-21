@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KODNEST WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!--------course------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Are you looking to start your Software career and unable to find the right place to build your over all skills,<br>
+             just attend 5 days of our demo classes and see the practical changes that you would have after our sessions. <br>
+             We are sure your level of competence will be top class compared to the rest.</p>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>MCP1</h3>
+                <p>This career path is carefully designed keeping in mind the individual roles a fresher would
+                     want to achieve to get a job as a programmer or a full stack developer or a front-end developer 
+                     with testing skills basically you will be a multifaceted Techie.</p>
+            </div>
+            <div class="course-col">
+                <h3>MCP2</h3>
+                <p>This career path is carefully designed keeping in mind the individual roles a fresher would
+                     want to achieve to get a job as a programmer or a full stack developer or a front-end developer 
+                     with testing skills basically you will be a multifaceted Techie.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-----------facilities------->
+    <section  class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Beyond just courses, our seasoned mentors provide invaluable insights, guidance, and support, ensuring every student not just learns, but thrives.</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>Library</h3>
+                <p>Our department regularly works with students interested in learning space design or user research through course projects and internships</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria-5.png">
+                <h3>Cafeteria</h3>
+                <p>The Food Service space type includes cafeterias, sandwich shops, coffee shops, fast food retail, and other food services that involve the preparation and handling of food items for the consumer.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- Footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>India’s Best Job Seekers and Training Platform. Making website is now one of the easiest thing in the world.<br>
+        You just need to learn HTML, CSS, and javaScript and You
+        are good to go.</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for toggle menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+    
+</body>
+</html>

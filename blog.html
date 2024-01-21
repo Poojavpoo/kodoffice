@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KODNEST WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Program For 2K23 </h1>
+    </section>
+
+    <!--------blog page content------->
+    <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate2.jpg" >
+            <h2>Our Certificate & Online Program For 2K23 </h2>
+            <p>We know that time is the most valuable thing no matter what, Our courses are strictly conducted with time sense and you will not have to waste 10+ months just to complete training. Total duration is given for every career path for your reference. Every day wasted is one step away from your job so completion of course on time is our highest priority and responsibility.</p>
+            <br>
+            <p>Kodnest has the best trainers in the country with wide range of expertise and industry experience which makes us stand out. We have carefully designed the training programs which is widely accepted in the software industry for its practical approach.​</p>
+            <br>
+            <p>We value every single rupee of yours and that is why our courses are the cheapest compared to anyone in the market and we believe in giving you the maximum value for what you pay which is why our fees includes all taxes, study materials without burdening you with any extra charges for our interiors, Air conditioners in classroom and other fancy items which does not help you in your skills YOU PAY FOR SKILLS NOT FOR INFRASTRUCTURE.</p>
+            <br>
+            <p>Every student is unique and special for kodnest so we take personal care of their learning interest and areas of improvement. Without individual attention one cannot help a student which is why we have this under our highest priority. We are able to achieve this easily because we take limited students for training and we strongly do not entertain crowded classes.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter E-mail">
+                    <textarea rows="5" placeholder="Your comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>FUll Stack Module</h3>
+        <div>
+            <span>Java</span>
+        </div>
+        <div>
+            <span>Python</span>
+        </div>
+        <div>
+            <span>Web Technology</span>
+        </div>
+        <div>
+            <span>Manual Testing</span>
+        </div>
+        <div>
+            <span>Data Structure</span>
+        </div>
+        <div>
+            <span>Angular Js and JSDN</span>
+        </div>
+        <br>
+        <div>
+            <h3>    Testing Module   </h3>
+        </div>
+        <div>
+            <span>Testing</span>
+        </div>
+        <div>
+            <span>Automation(Selenium)</span>
+        </div>
+        <div>
+            <span>Algorithm</span>
+        </div>
+        <div>
+            <span>APIs(web and rest)</span>
+        </div>
+        
+        
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>India’s Best Job Seekers and Training Platform. Making website is now one of the easiest thing in the world.<br>
+        You just need to learn HTML, CSS, and javaScript and You
+        are good to go.</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for toggle menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+    
+</body>
+</html>
